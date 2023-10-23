@@ -3,11 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link href="subStyle.css" rel="stylesheet">
     <script src="main.js"></script>
     <title>Lisää kirjaus</title>
 </head>
 <body>
-    
+    <main style="margin: 20px;">
+        <h2>Lisää tuntikirjaus</h2>
+        <br>
+            <label for="nimi" >Nimi</label>
+            <input type="text" id="nimi" value="" name="nimi">
+            <br>
+            <br>
+            <label for="pvmr" >Päivämäärä</label>
+            <input type="date" id="pvmr" value="" name="pvmr">
+            <br>
+            <br>
+            <p><b>Tunnit</b></p>
+            <br>
+            <div style="display: flex; width: 60vw;">
+                <p class="flexAboveAddP"><b>Työlaji</b></p>
+                <p class="flexAboveAddP"><b>Aika tunteina</b></p>
+                <p class="flexAboveAddP"><b>Kuvaus</b></p>
+            </div>
+            <div id="kirjausLista">
+
+                <div class="cloneListaus">
+                    <select class="listChild">
+                        <option value="Määrittely">Määrittely</option>
+                        <option value="Suunnittelu">Suunnittelu</option>
+                        <option value="Toteutus">Toteutus</option>
+                        <option value="Testaus">Testaus</option>
+                        <option value="Asiakastapaamiset">Asiakastapaamiset</option>
+                    </select>
+                    <input class="listChild" type="text" value="">
+                    <input class="listChild" type="text" value="">
+                </div>
+
+            </div>
+            <button>Lisää uusi</button>
+    </main>
 </body>
 </html>
