@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../raporti.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,7 +58,17 @@
         
         <div class="tilastot">
             <div id="pylväskaavio">
-                kakka
+                <form id="tilisiirto" action="tarkista.php" method="post">
+                    <p><label for="nimi">Hujari 1 hujatujen ihmisien määrä </label><input type="text" id="nimi1" name="nimi"><span id="virhe-nimi" class="virhe"></span></p>
+                    <p><label for="nimi2">Hujari 2 hujatujen ihmisien määrä </label><input type="text" id="nimi2" name="nimi"><span id="virhe-nimi" class="virhe"></span></p>
+                    <p><label for="nimi3">Hujari 3 hujatujen ihmisien määrä </label><input type="text" id="nimi3" name="nimi"><span id="virhe-nimi" class="virhe"></span></p>
+                    <br>
+                    <p  id="viesti_p"><label for="nimi">Kunele WC sound <span id="summa"></span></label><button id="wc">Voice of WC</button></p>
+                    <br>
+                    <canvas id="varastusalusta" width="400" height="110" style="display: none;">
+                        Tähän pitäisi laittaa teksti, joka kertoo, mistä piirroksessa on kyse. Tätä käytetään, jos kanvaasia ei voi näyttää (esim. käytetään ruudunlukijaa).
+                    </canvas>
+                </form>
             </div>
             
             <div id="ympyräkaavio">
