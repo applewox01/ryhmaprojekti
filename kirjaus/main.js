@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function(){
         if (kuvausYlin.value == "") {
             valid = false;
         };
-        if (tuntiYlin.value > 12 || tuntiYlin.value < 0) {
+        if (tuntiYlin.value > 12 || tuntiYlin.value < 0 || isNaN(tuntiYlin.value)) {
             valid = false;
         };
         if (valid == true) {
