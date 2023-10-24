@@ -8,7 +8,7 @@
     <script src="main.js"></script>
     <title>Lisää kirjaus</title>
 </head>
-<body id="page">
+<body>
     <main style="margin: 20px;">
         <h2>Lisää tuntikirjaus</h2>
         <br>
@@ -28,6 +28,7 @@
                 <p class="flexAboveAddP"><b>Kuvaus</b></p>
             </div>
             <div id="kirjausLista">
+
                 <div class="cloneListaus" id="cloneDefault">
                     <select class="listChild" style="height: 19.2px;">
                         <option value="Määrittely">Määrittely</option>
@@ -36,8 +37,20 @@
                         <option value="Testaus">Testaus</option>
                         <option value="Asiakastapaamiset" >Asiakastapaamiset</option>
                     </select>
-                    <input class="listChild" id="tuntiInput" type="number" value="">
+                    <input class="listChild" type="number" value="">
                     <input class="listChild" type="text" value="">
+                </div>
+
+                <div class="cloneListaus">
+                    <select class="listChild" style="height: 19.2px;">
+                        <option value="Määrittely">Määrittely</option>
+                        <option value="Suunnittelu">Suunnittelu</option>
+                        <option value="Toteutus">Toteutus</option>
+                        <option value="Testaus">Testaus</option>
+                        <option value="Asiakastapaamiset" >Asiakastapaamiset</option>
+                    </select>
+                    <input class="listChild" id="tuntiYlin" type="number" value="">
+                    <input class="listChild" id="kuvausYlin" type="text" value="">
                 </div>
 
             </div>

@@ -1,4 +1,4 @@
-## Fontit. Kopiokaa css tiedostoon
+## Fontit. Älkää kopioiko, lisään teemaan
 
 
 
