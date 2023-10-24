@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-    <link rel="stylesheet" href="asetshome/style.css">
+    <link rel="stylesheet" href="../style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,9 +13,11 @@
     <header class="header" id="headera">
         <div class="container">
             <div class="header__inner">
-                <div class="header__logo">Työaikaseuranta</div>
+                <div class="logo">
+                    <h1>Työaikaseuranta</h1>
+                </div>
                     
-                <nav class="nav piilotettu" id="main_navi">
+                <nav id="main_navi">
                         <a class="nav__link" href="tiimit/tiimit.html">tiimit</a >
                         <a class="nav__link" href="luvut/index.html">Raportit</a >
                         <a class="nav__link" href="robotto/index.html">Lisää-kirjaus</a >
@@ -24,6 +26,49 @@
             </div>
         </div>
     </header>
+
+    <div class="tehtävä">
+
+        <div class="tehtävä_1" id="bobyy" >
+            
+            <div id="hakulomake"><label id="label" for="solmu">Raportit</label><select id="solmu">
+                <option value="html">tiimi</option>
+                <option value="head">head-tägi</option>
+                <option value="charset">meta charset -tägi</option>
+                <option value="viewport">meta viewport -tägi</option>
+                <option value="title">title-tägi</option>
+                <option value="body">body-tägi</option>
+                <option value="hakulomake">hakulomake</option>
+                <option value="label">label</option>
+                <option value="solmu">pudotusvalikko</option>
+                <option value="hae">hakunappi</option>
+                <option value="vanhempi">vanhempien laatikko</option>
+                <option value="lapset">lapsien laatikko</option>
+                <option value="sisarukset">sisarusten laatikko</option>
+            </select>
+            <label class="label" for="solmu">Alkupvm</label>
+            <label class="label" for="solmu">loppupvm</label>
+            <button id="hae">Hae</button>
+        </div>
+    </div>
+
+
+
+    <div class="tehtävä_2" id="bobyy" >
+        
+        <div class="tilastot">
+            <div id="pylväskaavio">
+                kakka
+            </div>
+            
+            <div id="ympyräkaavio">
+                kakka
+            </div>
+        </div>
+
+    </div>
+
+</div>
 
 </body>
 </html>
