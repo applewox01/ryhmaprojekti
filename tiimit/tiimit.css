@@ -1,0 +1,47 @@
+header h1{
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+    margin-top: auto;
+    margin-bottom: 0%;
+}
+
+#box{
+    box-sizing: border-box;
+    border: 2px solid black; 
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
+
+#box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+}
+
+#box ul li {
+    width: 33.3%;
+    text-align: center;
+    padding: 5px;
+}
+
+#box a {
+    text-decoration: none;
+    text-align: center;
+  }
+
+#page{
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-top: 4%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 60%;
+    max-width: 1000px;
+
+}
