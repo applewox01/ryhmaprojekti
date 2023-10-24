@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="subStyle.css" rel="stylesheet">
+    <link href="../teema.css" rel="stylesheet">
     <script src="main.js"></script>
     <title>Lisää kirjaus</title>
 </head>
 <body>
+    <header>
+        <h1>Työaikaseuranta</h1>
+    </header>
+    <nav id="box">
+        <ul>
+          <li><a href="tiimit.html">Tiimit</a></li>
+          <li><a href="raportit.html">Raportit</a></li>
+          <li><a href="lisääkirjaus.html">Lisää kirjaus</a></li>
+        </ul>
+        <div class="stacks"></div>
+    </nav>
     <main style="margin: 20px;">
         <h2>Lisää tuntikirjaus</h2>
         <br>
@@ -27,7 +39,6 @@
                 <p class="flexAboveAddP"><b>Kuvaus</b></p>
             </div>
             <div id="kirjausLista">
-
                 <div class="cloneListaus" id="cloneDefault">
                     <select class="listChild" style="height: 19.2px;">
                         <option value="Määrittely">Määrittely</option>
@@ -36,9 +47,8 @@
                         <option value="Testaus">Testaus</option>
                         <option value="Asiakastapaamiset" >Asiakastapaamiset</option>
                     </select>
+                    <input class="listChild" id="tuntiInput" type="number" value="">
                     <input class="listChild" type="text" value="">
-                    <input class="listChild" type="text" value="">
-                    <button style="height: 19.2px;" hidden>Poista</button>
                 </div>
 
             </div>
