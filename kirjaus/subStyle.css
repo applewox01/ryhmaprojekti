@@ -9,6 +9,10 @@ label {
     margin: 0;
 }
 
+#cloneDefault {
+    display: none;
+}
+
 .poistaButton {
     height: 19.2px;
 }
