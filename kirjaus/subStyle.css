@@ -1,0 +1,26 @@
+label {
+    display: inline-block;
+    width: 90px;
+}
+
+.flexAboveAddP {
+    display: inline-block;
+    width: calc(60vw/3);
+}
+
+.listChild {
+    width: calc(60vw/3);
+    display: inline-block;
+    margin: 0;
+    height: fit-content;
+}
+
+.cloneListaus {
+    padding: 0;
+}
+
+* {
+    margin: 0;
+}
+
+

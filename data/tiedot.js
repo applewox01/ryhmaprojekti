@@ -1,5 +1,5 @@
 export const tiimi1 = {
-	nimi: "Kotisivuprojekti";
+	nimi: "Kotisivuprojekti",
 	jasenet: [
 		{
 			nimi: "Jaiden",
@@ -34,8 +34,8 @@ export const tiimi1 = {
 	]
 };
 
-export const tiimi2 = 
-	nimi: "Mobiilisovellusprojekti";
+export const tiimi2 = {
+	nimi: "Mobiilisovellusprojekti",
 	jasenet: [
 		{
 			nimi: "Ben",
