@@ -28,20 +28,25 @@
             </div>
             <div id="kirjausLista">
 
-                <div class="cloneListaus">
-                    <select class="listChild">
+                <div class="cloneListaus" id="cloneDefault">
+                    <select class="listChild" style="height: 19.2px;">
                         <option value="Määrittely">Määrittely</option>
                         <option value="Suunnittelu">Suunnittelu</option>
                         <option value="Toteutus">Toteutus</option>
                         <option value="Testaus">Testaus</option>
-                        <option value="Asiakastapaamiset">Asiakastapaamiset</option>
+                        <option value="Asiakastapaamiset" >Asiakastapaamiset</option>
                     </select>
                     <input class="listChild" type="text" value="">
                     <input class="listChild" type="text" value="">
+                    <button style="height: 19.2px;" hidden>Poista</button>
                 </div>
 
             </div>
-            <button>Lisää uusi</button>
+            <br>
+            <button id="uusi">Lisää uusi</button>
+            <br>
+            <br>
+            <button id="laheta">Lähetä</button>
     </main>
 </body>
 </html>

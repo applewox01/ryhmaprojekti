@@ -6,17 +6,19 @@ label {
 .flexAboveAddP {
     display: inline-block;
     width: calc(60vw/3);
+    margin: 0;
 }
 
 .listChild {
     width: calc(60vw/3);
     display: inline-block;
     margin: 0;
+    padding: 0;
     height: fit-content;
 }
 
 .cloneListaus {
-    padding: 0;
+    display: flex;
 }
 
 * {
