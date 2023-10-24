@@ -1,3 +1,11 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family: Rubik;
+}
+
+* {
+    font-family: Roboto;
+}
+
 .header{
     background-color: #ffe8d2;
 }
