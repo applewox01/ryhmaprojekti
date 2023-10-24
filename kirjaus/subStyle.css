@@ -9,6 +9,10 @@ label {
     margin: 0;
 }
 
+.poistaButton {
+    height: 19.2px;
+}
+
 .listChild {
     width: calc(60vw/3);
     display: inline-block;
