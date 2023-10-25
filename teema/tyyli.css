@@ -3,6 +3,10 @@
 
 /*HEADER*/
 
+#header{
+    background-color: #ffe8d2;
+}
+
 header h1{
     text-align: center;
     box-sizing: border-box;
@@ -15,7 +19,7 @@ header h1{
 
 header #box{
     box-sizing: border-box;
-    border: 2px solid black; 
+    border-bottom: 2px solid black; 
     margin-top: 0%;
     margin-bottom: 0%;
     width: 100%;
@@ -39,6 +43,12 @@ header #box ul li {
 header #box a {
     text-decoration: none;
     text-align: center;
+    color: black;
+    transition: color 0.2s linear
+}
+
+header #box a:hover{
+    color: red;
 }
 
 body {
@@ -79,6 +89,10 @@ h1,h2,h3,h4,h5,h6 {
 
 * {
     font-family: Roboto;
+}
+
+@media screen and (max-width: ) {
+    
 }
 
 /*.......*/
