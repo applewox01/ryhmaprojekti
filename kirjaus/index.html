@@ -12,6 +12,7 @@
     <main style="margin: 20px;">
         <h2>Lisää tuntikirjaus</h2>
         <br>
+        <form action="index.html" method="post" name="main">
             <label for="nimi" >Nimi</label>
             <input type="text" id="nimi" value="" name="nimi">
             <br>
@@ -55,10 +56,11 @@
 
             </div>
             <br>
-            <button id="uusi">Lisää uusi</button>
+            <input id="uusi" type="button" value="Lisää uusi"></input>
             <br>
             <br>
-            <button id="laheta">Lähetä</button>
+            <input id="laheta" action="index.html" type="submit"value="Lähetä"></input>
+        </form>
     </main>
 </body>
 </html>
