@@ -86,6 +86,10 @@
     margin-right: 5px;
 }
 
+.tilastot{
+    display: flex;
+}
+
 .varastusalusta{
     border-width: 1px;
     border-style: solid;
@@ -95,6 +99,7 @@
     height: 100%;
     max-height: 400px;
     position: relative;
+    margin-left: 1%;
 
 }
 
