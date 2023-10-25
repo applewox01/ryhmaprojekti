@@ -2,6 +2,7 @@
 <html lang="fi">
 <head>
     <link rel="stylesheet" href="raporti.css">
+    <link rel="stylesheet" href="../teema/tyyli.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +12,62 @@
 </head>
 
 
+<body>
+    <!--älkää koskeko, integroin sivut tähän-->
+    <header class="header" id="header">
+        <h1>Työaikaseuranta</h1>
+    <nav id="box">
+        <ul>
+          <li><a class="nav__link" href="tiimit.html">Tiimit</a></li>
+          <li><a class="nav__link" href="raportit.html">Raportit</a></li>
+          <li><a class="nav__link" href="lisääkirjaus.html">Lisää kirjaus</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="pää_aivo" id="tosi_iso_pää">
+    <div class="tehtävä">
+
+        <div class="tehtävä_1" id="bobyy" >
+            
+            <div id="hakulomake"><label id="label_iso" for="solmu">Raportit</label><select id="solmu">
+                <option value="html">tiimi</option>
+                <option value="head">head-tägi</option>
+                <option value="charset">meta charset -tägi</option>
+                <option value="viewport">meta viewport -tägi</option>
+            </select>
+            <label class="label2" for="solmu">Alkupvm</label>
+            <label class="label2" for="solmu">loppupvm</label>
+            <button id="hae">Hae</button>
+        </div>
+    </div>
 
 
+
+    <div class="tehtävä_2" id="bobyy" >
+        
+        <div class="tilastot">
+            <div class="varastusalusta">
+                    <canvas id="pylväskaavio" width="400" height="400" >
+                        Tähän pitäisi laittaa teksti, joka kertoo, mistä piirroksessa on kyse. Tätä käytetään, jos kanvaasia ei voi näyttää (esim. käytetään ruudunlukijaa).
+                    </canvas>
+            </div>
+            
+            <div class="varastusalusta">
+                    <canvas id="ympyräkaavio" width="400" height="400" >
+                        Tähän pitäisi laittaa teksti, joka kertoo, mistä piirroksessa on kyse. Tätä käytetään, jos kanvaasia ei voi näyttää (esim. käytetään ruudunlukijaa).
+                    </canvas>
+            </div>
+        </div>
+
+    </div>
+<!--Sivut tulevat myöhemmin tähän-->
+</main >
+
+</body>
+
+
+
+<!--
 <body>
 
 
@@ -56,4 +111,5 @@
 </div>
 
 </body>
+-->
 </html>
