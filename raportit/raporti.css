@@ -131,11 +131,72 @@
 
 
 
-/*responsivinen kakka on laitetu persesen takaisin*/
+/*responsivinen kakka on laitetu persesen takaisin */
 @media (max-width: 862px){
 
-    .responsivinen_kakka_on_laitetu_persesen_takaisin{
-        width: 400px; 
-        height: 400px;
+    .tilastot{
+        display: block;
     }
+
+    .varastusalusta{
+        margin-bottom: 1%;
+    
+    }
+}
+
+@media (max-width: 458px){
+
+    .tilastot{
+        display: block;
+    }
+
+    .tehtävä_1{
+        width: 90%;
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+
+    .varastusalusta{
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+
+        max-width: 300px;
+
+        max-height: 300px;
+        position: relative;
+        margin-left: 1%;
+        margin-bottom: 1%;
+    
+    }
+
+    .responsivinen_kakka_on_laitetu_persesen_takaisin{
+        width: 300px; 
+        height: 300px;
+    }
+
+
+}
+
+@media (max-width: 350px){
+
+    .varastusalusta{
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+
+        max-width: 250px;
+
+        max-height: 250px;
+        position: relative;
+        margin-left: 1%;
+    
+    }
+
+    .responsivinen_kakka_on_laitetu_persesen_takaisin{
+        width: 250px; 
+        height: 250px;
+    }
+
+
 }
