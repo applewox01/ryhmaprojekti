@@ -28,6 +28,9 @@ label {
 .cloneListaus {
     display: flex;
 }
+.formGroup {
+    display: inline-block;
+}
 
 * {
     margin: 0;

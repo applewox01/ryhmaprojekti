@@ -9,7 +9,7 @@
     <title>Lisää kirjaus</title>
 </head>
 <body>
-<main id="olet_kakka" class="pää_aivo">
+<main>
     <h2>Lisää tuntikirjaus</h2>
     <br>
     <form action="index.html" method="post" name="main">
@@ -23,11 +23,6 @@
         <br>
         <p><b>Tunnit</b></p>
         <br>
-        <div style="display: flex; width: 60vw;">
-            <p class="flexAboveAddP"><b>Työlaji</b></p>
-            <p class="flexAboveAddP"><b>Aika tunteina</b></p>
-            <p class="flexAboveAddP"><b>Kuvaus</b></p>
-        </div>
         <div id="kirjausLista">
 
             <div class="cloneListaus" id="cloneDefault">
@@ -43,6 +38,9 @@
             </div>
 
             <div class="cloneListaus">
+                <div class="formGroup">
+                <label class="flexAboveAddP"><b>Työlaji</b></label>
+                <br>
                 <select class="listChild" style="height: 19.2px;">
                     <option value="Määrittely">Määrittely</option>
                     <option value="Suunnittelu">Suunnittelu</option>
@@ -50,8 +48,19 @@
                     <option value="Testaus">Testaus</option>
                     <option value="Asiakastapaamiset" >Asiakastapaamiset</option>
                 </select>
-                <input class="listChild" id="tuntiYlin" type="number" value="">
+            </div>
+                <div class="formGroup">
+                    <label class="flexAboveAddP"><b>Aika tunteina</b></label>
+                    <br>
+                    <input class="listChild" id="tuntiYlin" type="number" value="">
+                </div>
+
+                <div class="formGroup">
+                <label class="flexAboveAddP"><b>Kuvaus</b></label>
+                <br>
                 <input class="listChild" id="kuvausYlin" type="text" value="">
+            </div>
+
             </div>
 
         </div>
