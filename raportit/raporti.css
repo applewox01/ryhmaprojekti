@@ -103,6 +103,11 @@
 
 }
 
+.responsivinen_kakka_on_laitetu_persesen_takaisin{
+    width: 400px; 
+    height: 400px;
+}
+
 
 
 
@@ -122,4 +127,76 @@
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+/*responsivinen kakka on laitetu persesen takaisin */
+@media (max-width: 862px){
+
+    .tilastot{
+        display: block;
+    }
+
+    .varastusalusta{
+        margin-bottom: 1%;
+    
+    }
+}
+
+@media (max-width: 458px){
+
+    .tilastot{
+        display: block;
+    }
+
+    .tehtävä_1{
+        width: 90%;
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+
+    .varastusalusta{
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+
+        max-width: 300px;
+
+        max-height: 300px;
+        position: relative;
+        margin-left: 1%;
+        margin-bottom: 1%;
+    
+    }
+
+    .responsivinen_kakka_on_laitetu_persesen_takaisin{
+        width: 300px; 
+        height: 300px;
+    }
+
+
+}
+
+@media (max-width: 350px){
+
+    .varastusalusta{
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+
+        max-width: 250px;
+
+        max-height: 250px;
+        position: relative;
+        margin-left: 1%;
+    
+    }
+
+    .responsivinen_kakka_on_laitetu_persesen_takaisin{
+        width: 250px; 
+        height: 250px;
+    }
+
+
 }
