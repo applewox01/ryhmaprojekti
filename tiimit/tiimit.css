@@ -1,13 +1,5 @@
-header h1{
-    text-align: center;
-    box-sizing: border-box;
-    border-bottom: 2px solid black;
-    padding-top: 30px; 
-    padding-bottom: 30px;
-    margin-top: auto;
-    margin-bottom: 0%;
-    background-color: rgb(223, 222, 222);
-}
+
+
 
 #box{
     box-sizing: border-box;
@@ -47,21 +39,40 @@ header h1{
 }
 
 
-#tiimilaiset h2{
+h2{
    font-weight: normal;
+   margin-left: 10px;
 }
-.tiimilaiset{
+.tiimilaiset1{
         display: flex;
-        flex-wrap: nowrap;
-        background-color: rgb(223, 222, 222);
+        flex-wrap:wrap;     
       }
       
-      .flex-container > div {
+.tiimilaiset1 div {
         background-color: #f1f1f1;
         width: 100px;
         margin: 10px;
         text-align: center;
-        line-height: 75px;
+        line-height: 50px;
         font-size: 30px;
 }
-   
+
+.tiimilaiset2{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 1cm;
+  }
+  
+  .tiimilaiset2 div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+#float{
+    margin-left: 10px;
+
+}
