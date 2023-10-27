@@ -3,8 +3,9 @@
 
 /*HEADER*/
 
-#header{
+header{
     background-color: #ffe8d2;
+
 }
 
 header h1{
@@ -34,23 +35,32 @@ header #box ul {
     width: 100%;
 }
 
-header #box ul li {
-    width: 33.3%;
+
+
+header #box ul li, header #HeaderListButton {
+    width: fit-content;
     text-align: center;
-    transition: color 0.2s linear
+    height: fit-content;
+    font-size: 30px;
+    transition: color 0.2s linear;
+    transition: background-color 0.2s linear;
 }
 
-header #box a {
+header #HeaderListButton {
+    margin-left: 0;
+}
+
+
+header #box a, header #HeaderListButton {
     padding: 5px;
-    display: block;
     text-decoration: none;
     text-align: center;
     color: black;
     transition: color 0.2s linear;
-    transition: background-color 0.5s linear;
+    transition:  0.5s linear;
 }
 
-header #box a:hover{
+header #box a:hover, header #HeaderListButton:hover {
     background-color: #ff9254;
     color: #005246;
 }
@@ -96,3 +106,81 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /*.......*/
+
+/*responsiivisuus*/
+
+header #HeaderListButton {
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 650px) {
+    header #HeaderListButton {
+        display: inline-block;
+    }
+    header .nav__link {
+        display: none;
+    }
+    .show {
+        display: inline-block;
+    } 
+
+}
+
+@media screen and (min-width: 650px) {
+    header #HeaderListButton {
+        display: none;
+    }
+    header .nav__link {
+        display: inline-block;
+    }
+    .show {
+        display: none;
+    }
+}
+
+/*Hampurilaisvalikko*/
+
+.hide {
+    display: none;
+}
+
+
+#HValikko {
+    background-color: #ffe8d2;
+    border-bottom: 2px solid #005246;
+    width: 100%;
+}
+
+#HValikko ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#HValikko ul li {
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+    font-size: 30px;
+    margin-bottom: 30px;
+    transition: color 0.2s linear;
+    transition: background-color 0.2s linear;
+}
+
+#HValikko a {
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    transition: color 0.2s linear;
+    transition:  0.5s linear;
+}
+
+#HValikko a:hover {
+    background-color: #ff9254;
+    color: #005246;
+}
+
+/*..........*/
