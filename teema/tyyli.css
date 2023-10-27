@@ -68,11 +68,12 @@ header #box a:hover, header #HeaderListButton:hover {
 body {
     box-sizing: border-box;
     border: 2px solid #005246;
-    margin-top: 2%;
+    margin-top: 2vh;
     margin-left: 1%;
     margin-right: 1%;
-    margin-bottom: 2%;
-    height: 90vh;
+    margin-bottom: 2vh;
+    min-height: 96vh;
+    height: fit-content;
 }
 
 /*...........*/
