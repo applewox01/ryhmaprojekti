@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     //Lähetä-nappi on poissa käytöstä siihen asti, kunnes käyttäjä on antanut nimen, valinnut päivämäärän ja syöttänyt ainakin yhdelle riville (ylimmälle) tuntikirjauksen. 
     //Päivän kokonaistuntimäärä ei myöskään saa olla yli 12 tuntia eikä yksikään tuntikenttä saa olla negatiivinen luku (tai jotain muuta kuin luku).
-
+    //responsivinen kakka on laitetu persesen takaisin
     
 
     uusi.addEventListener("click",function(){
