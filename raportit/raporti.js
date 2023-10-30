@@ -50,7 +50,7 @@ function piirra() {
 }
 
 
-document.getElementById("wc").addEventListener("click", function(p){
+document.getElementById("hae").addEventListener("click", function(p){
     p.preventDefault()
     document.getElementById("varastusalusta").style.display="inline-block"
     let ding = document.getElementById("kakkaaudio")
