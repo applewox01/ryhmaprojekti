@@ -39,40 +39,32 @@
 }
 
 
-h2{
+#top{
+   
    font-weight: normal;
    margin-left: 10px;
+   font-size: 25px;
 }
-.tiimilaiset1{
+
+#ovtop{
+   margin-top: 30px;
+}
+
+#tiimival{
+    margin-left: 100px;
+}
+#tiimilaiset1{
         display: flex;
-        flex-wrap:wrap;     
+        flex-wrap:wrap;  
+        justify-content: space-between;   
       }
       
-.tiimilaiset1 div {
+#tiimilaiset1 div {
         background-color: #f1f1f1;
-        width: 100px;
-        margin: 10px;
+        width: 30%;
         text-align: center;
         line-height: 50px;
-        font-size: 30px;
-}
-
-.tiimilaiset2{
-    display: flex;
-    flex-wrap:wrap;
-    margin-top: 1cm;
-  }
-  
-  .tiimilaiset2 div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 30px;
-}
-
-#float{
-    margin-left: 10px;
+        font-size: 20px;
+        margin-bottom: 10px;
 
 }
