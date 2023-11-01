@@ -46,7 +46,7 @@ function näytä_raportit(){
         let tunnit = tuntisummat[nimi]
 
         //konteksti.strokeRect(140,10, 50, 100)
-        konteksti.fillStyle = "#6E2C00";
+        konteksti.fillStyle = "#000000";
 
        /* if (laskuri1 <= prosentia){
             laskuri1 += 1
