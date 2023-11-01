@@ -53,10 +53,9 @@ function näytä_raportit(){
         } */
         let laskuri1 = tunnit
         konteksti.fillRect(10 + lisätävä, 10+250-laskuri1, 50, laskuri1)
-        konteksti.font="italic 30px Times New Roman";
+        konteksti.font="italic 15px Times New Roman";
         konteksti.textAlign = "center";
-        konteksti.fillText("kukia", 110, 170);
-        konteksti.strokeText("kukia", 110, 170);
+        konteksti.fillText("tiimi 1", 30, 300);
         lisätävä += 80
 
     }
