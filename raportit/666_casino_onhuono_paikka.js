@@ -56,6 +56,10 @@ function näytä_raportit(){
         konteksti.font="italic 15px Times New Roman";
         konteksti.textAlign = "center";
         konteksti.fillText("tiimi 1", 30, 300);
+        konteksti.fillText("tiimi 2", 110, 300);
+        konteksti.fillText("tiimi 3", 190, 300);
+        konteksti.fillText("tiimi 4", 270, 300);
+        konteksti.fillText("tiimi 5", 350, 300);
         lisätävä += 80
 
     }
