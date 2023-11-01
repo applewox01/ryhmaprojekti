@@ -43,6 +43,9 @@ document.addEventListener("DOMContentLoaded", function(){
 
     //Lähetä-nappi on poissa käytöstä siihen asti, kunnes käyttäjä on antanut nimen, valinnut päivämäärän ja syöttänyt ainakin yhdelle riville (ylimmälle) tuntikirjauksen. 
     //Päivän kokonaistuntimäärä ei myöskään saa olla yli 12 tuntia eikä yksikään tuntikenttä saa olla negatiivinen luku (tai jotain muuta kuin luku).
+    //responsivinen kakka on laitetu persesen takaisin
+    
+
     uusi.addEventListener("click",function(){
         let clone = cloneDefault.cloneNode(true);
         const attr = clone.getAttributeNode("id");
@@ -58,3 +61,49 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
 });
+
+
+
+
+
+
+
+
+
+
+    //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
