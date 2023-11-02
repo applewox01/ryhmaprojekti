@@ -59,7 +59,7 @@ export const tiimi2 = {
 			nimi: "Tanja",
 			rooli: "Ohjelmoija, ohjelmistotestaaja",
 			osaaminen: "Mobiiliohjelmointi, DevOps",
-			kuvaus: "hijatele ihmisiä sanomalla että casino on hyvä paikka"
+			kuvaus: "hujatele ihmisiä sanomalla että casino on hyvä paikka"
 		}
 	]
 };
