@@ -41,7 +41,7 @@ export const tiimi2 = {
 			nimi: "Ben",
 			rooli: "Projektipäällikkö, graafikko",
 			osaaminen: "Kuvankäsittely, vektorigrafiikka, projektijohtaminen",
-			kuvaus: "I <3 video games."
+			kuvaus: "Kakkojen varastaminen."
 		},
 		{
 			nimi: "Mikko",
@@ -53,13 +53,13 @@ export const tiimi2 = {
 			nimi: "Sahar",
 			rooli: "Ohjelmoija",
 			osaaminen: "C/C++, Java, Kotlin, mobiiliohjelmointi (Android / iOS)",
-			kuvaus: "Mimmit koodaa!"
+			kuvaus: "pela koko paivä casino 666"
 		},
 		{
 			nimi: "Tanja",
 			rooli: "Ohjelmoija, ohjelmistotestaaja",
 			osaaminen: "Mobiiliohjelmointi, DevOps",
-			kuvaus: "Ei spagettia, kiitos."
+			kuvaus: "hijatele ihmisiä sanomalla että casino on hyvä paikka"
 		}
 	]
 };
