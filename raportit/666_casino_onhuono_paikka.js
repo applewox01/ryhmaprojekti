@@ -6,6 +6,7 @@ import { tiimi1,tiimi2 } from "../data/tiedot.js";
 function näytä_raportit(){
     let tiiminimi = document.querySelector("#solmu option:checked").value;
     let tiimi;
+    let yhteensä = 0
     if (tiiminimi == "tiimi1"){
         tiimi = tiimi1
     }
@@ -30,6 +31,7 @@ function näytä_raportit(){
             else{
                 tuntisummat[i.nimi] = i.tunteja
             }
+            yhteensä += i.tunteja
         }
     }
 
@@ -55,15 +57,27 @@ function näytä_raportit(){
         konteksti.fillRect(10 + lisätävä, 10+250-laskuri1, 50, laskuri1)
         konteksti.font="italic 15px Times New Roman";
         konteksti.textAlign = "center";
-        konteksti.fillText("tiimi 1", 30, 300);
-        konteksti.fillText("tiimi 2", 110, 300);
-        konteksti.fillText("tiimi 3", 190, 300);
-        konteksti.fillText("tiimi 4", 270, 300);
-        konteksti.fillText("tiimi 5", 350, 300);
+        konteksti.fillText( nimi, 30 +lisätävä, 300);
+        konteksti.fillText( tunnit + "h", 30 +lisätävä, 320);
         lisätävä += 80
 
     }
+
+
     konteksti.restore()
+
+
+    var canvas2 = document.getElementById("ympyräkaavio");
+    var konteksti2 = canvas2.getContext("2d");
+
+    for (let nimi in tuntisummat) {
+        let tunnit = tuntisummat[nimi]
+        let prosenti = tunnit/yhteensä
+        prosenti = Math.round(0.00);
+        console.log(prosenti)
+    }
+
+
 }
 
 
