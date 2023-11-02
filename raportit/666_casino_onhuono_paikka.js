@@ -70,21 +70,6 @@ function näytä_raportit(){
 
 document.getElementById("hae").addEventListener("click", näytä_raportit)
 
-document.getElementById("sisa").addEventListener("mouseenter", function() {
-    document.getElementById("sisa").innerHTML = "666 casino on huono paikka";
-})
-
-document.getElementById("sisa").addEventListener("mouseleave", function() {
-    document.getElementById("sisa").innerHTML = "Työaikaseuranta";
-})
-
-
-
-
-
-
-
-
 
 
 
@@ -139,6 +124,10 @@ document.getElementById("hae").addEventListener("click", function(p){
     
     setInterval(piirra, 100);
 })
-
-
 */
+document.getElementById("sisa").addEventListener("mouseenter", function() {
+    document.getElementById("sisa").innerHTML = "666 casino on huono paikka";
+})
+document.getElementById("sisa").addEventListener("mouseleave", function() {
+    document.getElementById("sisa").innerHTML = "Työaikaseuranta";
+})
