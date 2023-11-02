@@ -40,7 +40,7 @@ function näytä_raportit(){
     konteksti.clearRect(0, 0, canvas.width, canvas.height);
     konteksti.save();
 
-    let lisätävä = 0
+    let lisätävä2 = 0
 
     for (let nimi in tuntisummat) {
         let tunnit = tuntisummat[nimi]
@@ -61,6 +61,41 @@ function näytä_raportit(){
         konteksti.fillText("tiimi 4", 270, 300);
         konteksti.fillText("tiimi 5", 350, 300);
         lisätävä += 80
+
+    }
+    konteksti.restore()
+
+
+
+
+
+    var canvas = document.getElementById("ympyräkaavio");
+    var konteksti = canvas.getContext("2d");
+
+    konteksti.clearRect(0, 0, canvas.width, canvas.height);
+    konteksti.save();
+
+    let lisätäv = 0
+
+    for (let nimi in tuntisummat) {
+        let tunnit = tuntisummat[nimi]
+
+        //konteksti.strokeRect(140,10, 50, 100)
+        konteksti.fillStyle = "#000000";
+
+       /* if (laskuri1 <= prosentia){
+            laskuri1 += 1
+        } */
+        let laskuri1 = tunnit
+        konteksti.fillRect(10 + lisätävä, 10+250-laskuri1, 50, laskuri1)
+        konteksti.font="italic 15px Times New Roman";
+        konteksti.textAlign = "center";
+        konteksti.fillText("tiimi 1", 30, 300);
+        konteksti.fillText("tiimi 2", 110, 300);
+        konteksti.fillText("tiimi 3", 190, 300);
+        konteksti.fillText("tiimi 4", 270, 300);
+        konteksti.fillText("tiimi 5", 350, 300);
+        lisätäv += 80
 
     }
     konteksti.restore()
