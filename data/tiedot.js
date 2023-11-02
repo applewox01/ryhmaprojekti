@@ -47,7 +47,7 @@ export const tiimi2 = {
 			nimi: "Mikko",
 			rooli: "UX-suunnittelija, ohjelmoija",
 			osaaminen: "UI/UX Design, HTML5/CSS3, Javascript, Kotlin",
-			kuvaus: "Hyvin suunniteltu on puoliksi tehty."
+			kuvaus: "Hyvin suunniteltu aivojen pesu auta kakkojen varastamisessa"
 		},
 		{
 			nimi: "Sahar",
