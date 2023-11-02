@@ -40,7 +40,7 @@ function näytä_raportit(){
     konteksti.clearRect(0, 0, canvas.width, canvas.height);
     konteksti.save();
 
-    let lisätävä2 = 0
+    let lisätävä = 0
 
     for (let nimi in tuntisummat) {
         let tunnit = tuntisummat[nimi]
@@ -66,7 +66,17 @@ function näytä_raportit(){
     konteksti.restore()
 }
 
+
+
 document.getElementById("hae").addEventListener("click", näytä_raportit)
+
+document.getElementById("sisa").addEventListener("mouseenter", function() {
+    document.getElementById("sisa").innerHTML = "666 casino on huono paikka";
+})
+
+document.getElementById("sisa").addEventListener("mouseleave", function() {
+    document.getElementById("sisa").innerHTML = "Työaikaseuranta";
+})
 
 
 
