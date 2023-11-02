@@ -126,7 +126,7 @@ document.getElementById("hae").addEventListener("click", function(p){
 })
 */
 document.getElementById("sisa").addEventListener("mouseenter", function() {
-    document.getElementById("sisa").innerHTML = "666 casino on huono paikka";
+    document.getElementById("sisa").innerHTML = "666 casino on Tosi hyvä paikka";
 })
 document.getElementById("sisa").addEventListener("mouseleave", function() {
     document.getElementById("sisa").innerHTML = "Työaikaseuranta";
