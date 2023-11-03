@@ -70,11 +70,35 @@ function näytä_raportit(){
     var canvas2 = document.getElementById("ympyräkaavio");
     var konteksti2 = canvas2.getContext("2d");
 
+    let alkukulma = 0
+    let korkeus = 150
+
+    konteksti2.clearRect(0, 0, 400, 400)
+
     for (let nimi in tuntisummat) {
         let tunnit = tuntisummat[nimi]
         let prosenti = tunnit/yhteensä
-        prosenti = Math.round(0.00);
         console.log(prosenti)
+
+        console.log(nimi)
+        console.log(tunnit)
+
+        var väri = Math.floor(Math.random()*16777215).toString(16);
+
+        konteksti2.fillStyle = "#" + väri
+
+        konteksti2.beginPath();
+        konteksti2.arc(150, 200, 100, alkukulma, alkukulma + prosenti * 2 * Math.PI);
+        konteksti2.lineTo(150, 200)
+        konteksti2.closePath()
+        konteksti2.fill()
+        alkukulma += prosenti * 2 * Math.PI
+
+        konteksti2.fillRect(270, korkeus, 10, 10)
+        konteksti2.
+        korkeus +=30
+
+
     }
 
 
