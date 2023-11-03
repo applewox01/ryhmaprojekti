@@ -46,7 +46,7 @@ function näytä_raportit(){
     var canvas = document.getElementById("pylväskaavio");
     var konteksti = canvas.getContext("2d");
 
-    konteksti.clearRect(0, 0, canvas.width, canvas.height);
+    konteksti.clearRect(0, 0, 10300, canvas.height);
     konteksti.save();
 
     let lisätävä = 0
@@ -122,7 +122,7 @@ function piirra() {
 
     if (laskuri1 <= prosentia){
         laskuri1 += 1
-        
+
     }
     konteksti.fillRect(140, 10+100-laskuri1, 50, laskuri1)
 
