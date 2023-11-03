@@ -25,6 +25,7 @@ function näytä_raportit(){
 
 
     const tuntisummat = []
+    const värit = []
 
     for (let i of kokonaistunnit){
         let päivämärä = new Date(i.pvm)
@@ -34,11 +35,14 @@ function näytä_raportit(){
             }
             else{
                 tuntisummat[i.nimi] = i.tunteja
+                värit[i.nimi] = Math.floor(Math.random()*16777215).toString(16);
             }
             yhteensä += i.tunteja
         }
     }
 
+
+    //Pylväs kaavio
     var canvas = document.getElementById("pylväskaavio");
     var konteksti = canvas.getContext("2d");
 
@@ -50,12 +54,9 @@ function näytä_raportit(){
     for (let nimi in tuntisummat) {
         let tunnit = tuntisummat[nimi]
 
-        //konteksti.strokeRect(140,10, 50, 100)
-        konteksti.fillStyle = "#000000";
+        //var väri = Math.floor(Math.random()*16777215).toString(16);
+        konteksti.fillStyle = "#" + värit[nimi]
 
-       /* if (laskuri1 <= prosentia){
-            laskuri1 += 1
-        } */
         let laskuri1 = tunnit
         konteksti.fillRect(10 + lisätävä, 10+250-laskuri1, 50, laskuri1)
         konteksti.font="italic 15px Times New Roman";
@@ -63,13 +64,13 @@ function näytä_raportit(){
         konteksti.fillText( nimi, 30 +lisätävä, 300);
         konteksti.fillText( tunnit + "h", 30 +lisätävä, 320);
         lisätävä += 80
-
     }
 
 
     konteksti.restore()
 
 
+    //Ympyrä kavio
     var canvas2 = document.getElementById("ympyräkaavio");
     var konteksti2 = canvas2.getContext("2d");
 
@@ -82,10 +83,8 @@ function näytä_raportit(){
         let tunnit = tuntisummat[nimi]
         let prosenti = tunnit/yhteensä
 
-
-        var väri = Math.floor(Math.random()*16777215).toString(16);
-
-        konteksti2.fillStyle = "#" + väri
+        //var väri = Math.floor(Math.random()*16777215).toString(16);
+        konteksti2.fillStyle = "#" + värit[nimi]
 
         konteksti2.beginPath();
         konteksti2.arc(150, 200, 100, alkukulma, alkukulma + prosenti * 2 * Math.PI);
@@ -97,8 +96,6 @@ function näytä_raportit(){
         konteksti2.fillRect(270, korkeus, 10, 10)
         konteksti2.fillText( nimi, 290, korkeus +9);
         korkeus +=30
-
-
     }
 
 
