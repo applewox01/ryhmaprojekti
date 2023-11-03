@@ -14,7 +14,7 @@ export const tiimi1 = {
 			kuvaus: "Koodia 20 vuoden kokemuksella."
 		},
 		{
-			nimi: "kakka lisa",
+			nimi: "Mikko Kissa",
 			rooli: "UX-suunnittelija",
 			osaaminen: "UI/UX Design, HTML5/CSS3, Photoshop, Illustrator",
 			kuvaus: "Käyttökokemuksen ja käyttöliittymien suunnittelun tuleva asiantuntija."
@@ -44,7 +44,7 @@ export const tiimi2 = {
 			kuvaus: "Kakkojen varastaminen."
 		},
 		{
-			nimi: "Mikko",
+			nimi: "Mikko Kissa",
 			rooli: "UX-suunnittelija, ohjelmoija",
 			osaaminen: "UI/UX Design, HTML5/CSS3, Javascript, Kotlin",
 			kuvaus: "Hyvin suunniteltu aivojen pesu auta kakkojen varastamisessa"

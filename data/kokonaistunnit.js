@@ -16,7 +16,7 @@ export const kokonaistunnit = [
 	},
 	{
 	pvm: "2022-10-03",
-	nimi: "Mikko",
+	nimi: "Mikko Kissa",
 	tunteja: 9
 	},
 	{
@@ -61,7 +61,7 @@ export const kokonaistunnit = [
 	},
 	{
 	pvm: "2022-10-04",
-	nimi: "Mikko",
+	nimi: "Mikko Kissa",
 	tunteja: 9
 	},
 	{
@@ -106,7 +106,7 @@ export const kokonaistunnit = [
 	},
 	{
 	pvm: "2022-10-05",
-	nimi: "Mikko",
+	nimi: "Mikko Kissa",
 	tunteja: 5
 	},
 	{
@@ -151,7 +151,7 @@ export const kokonaistunnit = [
 	},
 	{
 	pvm: "2022-10-06",
-	nimi: "Mikko",
+	nimi: "Mikko Kissa",
 	tunteja: 5
 	},
 	{
@@ -196,7 +196,7 @@ export const kokonaistunnit = [
 	},
 	{
 	pvm: "2022-10-07",
-	nimi: "Mikko",
+	nimi: "Mikko Kissa",
 	tunteja: 9
 	},
 	{
@@ -241,7 +241,7 @@ export const kokonaistunnit = [
 	},
 	{
 	pvm: "2022-10-10",
-	nimi: "Mikko",
+	nimi: "Mikko Kissa",
 	tunteja: 5
 	},
 	{
@@ -286,7 +286,7 @@ export const kokonaistunnit = [
 	},
 	{
 	pvm: "2022-10-11",
-	nimi: "Mikko",
+	nimi: "Mikko Kissa",
 	tunteja: 6
 	},
 	{
@@ -331,7 +331,7 @@ export const kokonaistunnit = [
 	},
 	{
 	pvm: "2022-10-12",
-	nimi: "Mikko",
+	nimi: "Mikko Kissa",
 	tunteja: 8
 	},
 	{
@@ -376,7 +376,7 @@ export const kokonaistunnit = [
 	},
 	{
 	pvm: "2022-10-13",
-	nimi: "Mikko",
+	nimi: "Mikko Kissa",
 	tunteja: 5
 	},
 	{
@@ -421,7 +421,7 @@ export const kokonaistunnit = [
 	},
 	{
 	pvm: "2022-10-14",
-	nimi: "Mikko",
+	nimi: "Mikko Kissa",
 	tunteja: 5
 	},
 	{

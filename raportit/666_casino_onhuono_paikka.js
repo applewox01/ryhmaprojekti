@@ -20,11 +20,15 @@ function näytä_raportit(){
         jäsenet.push(jäsen.nimi)
     }
 
+    let alkupvm = new Date(document.getElementById("alkupvm").value);
+    let loppupvm = new Date(document.getElementById("loppupvm").value);
+
 
     const tuntisummat = []
 
     for (let i of kokonaistunnit){
-        if (jäsenet.includes(i.nimi)){
+        let päivämärä = new Date(i.pvm)
+        if (jäsenet.includes(i.nimi) && päivämärä >= alkupvm && päivämärä <= loppupvm){
             if (i.nimi in tuntisummat) {
                 tuntisummat[i.nimi] += i.tunteja
             }
@@ -34,7 +38,6 @@ function näytä_raportit(){
             yhteensä += i.tunteja
         }
     }
-
 
     var canvas = document.getElementById("pylväskaavio");
     var konteksti = canvas.getContext("2d");
@@ -73,15 +76,12 @@ function näytä_raportit(){
     let alkukulma = 0
     let korkeus = 150
 
-    konteksti2.clearRect(0, 0, 400, 400)
+    konteksti2.clearRect(0, 0, 4000, 4000)
 
     for (let nimi in tuntisummat) {
         let tunnit = tuntisummat[nimi]
         let prosenti = tunnit/yhteensä
-        console.log(prosenti)
 
-        console.log(nimi)
-        console.log(tunnit)
 
         var väri = Math.floor(Math.random()*16777215).toString(16);
 
@@ -95,7 +95,7 @@ function näytä_raportit(){
         alkukulma += prosenti * 2 * Math.PI
 
         konteksti2.fillRect(270, korkeus, 10, 10)
-        konteksti2.
+        konteksti2.fillText( nimi, 290, korkeus +9);
         korkeus +=30
 
 
