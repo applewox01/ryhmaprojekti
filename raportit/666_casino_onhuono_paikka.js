@@ -122,6 +122,7 @@ function piirra() {
 
     if (laskuri1 <= prosentia){
         laskuri1 += 1
+        
     }
     konteksti.fillRect(140, 10+100-laskuri1, 50, laskuri1)
 
