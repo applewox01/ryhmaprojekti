@@ -1,6 +1,5 @@
 
 
-
 #box{
     box-sizing: border-box;
     border: 2px solid black; 
@@ -48,6 +47,7 @@
 
 #ovtop{
    margin-top: 30px;
+   margin-bottom: 20px;
 }
 
 #tiimival{
@@ -67,4 +67,18 @@
         font-size: 20px;
         margin-bottom: 10px;
 
+}
+
+#flex{
+    display: flex;
+}
+
+#info{
+    margin-left: 10px;
+    background-color: #f1f1f1;
+    width: 30%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
