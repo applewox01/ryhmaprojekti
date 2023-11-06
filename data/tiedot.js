@@ -14,7 +14,7 @@ export const tiimi1 = {
 			kuvaus: "Koodia 20 vuoden kokemuksella."
 		},
 		{
-			nimi: "Lisa",
+			nimi: "Mikko Kissa",
 			rooli: "UX-suunnittelija",
 			osaaminen: "UI/UX Design, HTML5/CSS3, Photoshop, Illustrator",
 			kuvaus: "Käyttökokemuksen ja käyttöliittymien suunnittelun tuleva asiantuntija."
@@ -41,25 +41,25 @@ export const tiimi2 = {
 			nimi: "Ben",
 			rooli: "Projektipäällikkö, graafikko",
 			osaaminen: "Kuvankäsittely, vektorigrafiikka, projektijohtaminen",
-			kuvaus: "I <3 video games."
+			kuvaus: "Kakkojen varastaminen."
 		},
 		{
-			nimi: "Mikko",
+			nimi: "Mikko Kissa",
 			rooli: "UX-suunnittelija, ohjelmoija",
 			osaaminen: "UI/UX Design, HTML5/CSS3, Javascript, Kotlin",
-			kuvaus: "Hyvin suunniteltu on puoliksi tehty."
+			kuvaus: "Hyvin suunniteltu aivojen pesu auta kakkojen varastamisessa"
 		},
 		{
 			nimi: "Sahar",
 			rooli: "Ohjelmoija",
 			osaaminen: "C/C++, Java, Kotlin, mobiiliohjelmointi (Android / iOS)",
-			kuvaus: "Mimmit koodaa!"
+			kuvaus: "pela koko paivä casino 666 ja lisäksi Ohjelmistokehittäjä ei osaa ja ei tykkä mutta hän pitä ohjelmoida erillaisia kakka ohjelmia, ei hyödyntää rajapintoja, ei tykkä käsitellä tietoa ja sen lisääksi ei osa käyttää versionhallintaa (esimerkiksi GitHub ja) lisääksi ohjelmojja tarjoa ilmaiseksi piratoitetuja pelejä ilmaiseksi (itorrents-igruha.org) nettisivulla . Työ aikana ohjelmistokehitäjä ei ohjelmoi mitään vaan piratooi elokuvia ja tietokone pelejä. Ohjelmistokehitystiimin kanssa ohjelmoja ei koskaan ei puhu mistään asioista . Asiakkaan kanssa ohjelmoja on tosi ärsytävä ja agresiivinen ja sano tosi huonoja juttuja asiakalle, yritä hujata ja varasta raha asiakan taskusta puhelun aikana. Ei suunnittelee ohjelmiston toteutuksen ja ei varmistaa toteutettavien toimintojen laadun."
 		},
 		{
 			nimi: "Tanja",
 			rooli: "Ohjelmoija, ohjelmistotestaaja",
 			osaaminen: "Mobiiliohjelmointi, DevOps",
-			kuvaus: "Ei spagettia, kiitos."
+			kuvaus: "hujatele ihmisiä sanomalla että casino on hyvä paikka"
 		}
 	]
 };

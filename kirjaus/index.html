@@ -5,10 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="tyyli.css" rel="stylesheet">
     <link href="../teema/tyyli.css" rel="stylesheet">
+    <script src="../teema/main.js"></script>
     <script src="main.js"></script>
     <title>Lisää kirjaus</title>
 </head>
 <body>
+    <header class="header" id="header">
+        <h1>Työaikaseuranta</h1>
+    <nav id="box">
+        <ul>
+            <li id="HeaderListButton"><b>&#9776;</b></li>
+            <li><a class="nav__link" href="../tiimit/tiimit.html">Tiimit</a></li>
+            <li><a class="nav__link" href="../raportit/raportit.html">Raportit</a></li>
+            <li><a class="nav__link" href="../kirjaus/index.html">Lisää kirjaus</a></li>
+        </ul>
+    </nav>
+</header>
+<nav id="HValikko" class="hide">
+    <ul>
+        <li><a href="../tiimit/tiimit.html">Tiimit</a></li>
+        <li><a href="../raportit/raportit.html">Raportit</a></li>
+        <li><a href="../kirjaus/index.html">Lisää kirjaus</a></li>
+    </ul>
+</nav>
 <main>
     <h2>Lisää tuntikirjaus</h2>
     <br>
@@ -68,10 +87,10 @@
 
         </div>
         <br>
-        <input id="uusi" type="button" value="Lisää uusi"></input>
+        <input id="uusi" type="button" value="Lisää uusi">
         <br>
         <br>
-        <input id="laheta" action="index.html" type="submit"value="Lähetä"></input>
+        <input id="laheta" type="submit" value="Lähetä">
     </form>
 </main>
 
