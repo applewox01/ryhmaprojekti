@@ -82,3 +82,12 @@
     font-size: 20px;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 445px) {
+    .cloneListaus {
+        display: inline-block;
+    }
+    .flexAboveAddP, .listChild {
+        width: 65vw;
+    }
+}
