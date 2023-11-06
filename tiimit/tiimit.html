@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="tiimit.css">
     <script src="tiimit.js" type="module"></script>
-
+    <link href="../teema/tyyli.css" rel="stylesheet">
+    <script src="../teema/main.js"></script>
     <title>wsdsd</title>
 </head>
 
@@ -13,6 +14,27 @@
 
 
 <body>
+    <header class="header" id="header">
+        <h1>Työaikaseuranta</h1>
+    <nav id="box">
+        <ul>
+            <li id="HeaderListButton"><b>&#9776;</b></li>
+            <li><a class="nav__link" href="../tiimit/tiimit.html">Tiimit</a></li>
+            <li><a class="nav__link" href="../raportit/raportit.html">Raportit</a></li>
+            <li><a class="nav__link" href="../kirjaus/index.html">Lisää kirjaus</a></li>
+        </ul>
+    </nav>
+</header>
+<nav id="HValikko" class="hide">
+    <ul>
+        <li><a href="../tiimit/tiimit.html">Tiimit</a></li>
+        <li><a href="../raportit/raportit.html">Raportit</a></li>
+        <li><a href="../kirjaus/index.html">Lisää kirjaus</a></li>
+    </ul>
+</nav>
+
+<main>
+
 <form id="ovtop">
     <label id="top"> Tiimin nimi</label>
         <select name="" id="tiimival">
@@ -27,6 +49,8 @@
 
 <div id="info"> </div>
 </div>
+
+</main>
 
 </body>
 </html>

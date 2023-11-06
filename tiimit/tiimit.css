@@ -1,32 +1,5 @@
 
 
-#box{
-    box-sizing: border-box;
-    border: 2px solid black; 
-    margin-top: 0%;
-    margin-bottom: 0%;
-    
-}
-
-#box ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    width: 100%;
-}
-
-#box ul li {
-    width: 15%;
-    padding: 5px;
-    background-color: rgb(223, 222, 222);
-}
-
-#box a {
-    text-decoration: none;
-
-}
-
 #page{
     box-sizing: border-box;
     border: 2px solid black;
