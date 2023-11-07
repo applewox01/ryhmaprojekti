@@ -56,11 +56,18 @@
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 445px) {
-    .cloneListaus {
-        display: inline-block;
+@media screen and (max-width: 445px){
+    #flex{
+        display: block;
     }
-    .flexAboveAddP, .listChild {
-        width: 65vw;
-    }
+#tiimilaiset1 div{
+    width: 100%;
 }
+#tiimilaiset1{
+    display: block;
+}
+#info{
+    width: 100%;
+}
+}
+   
