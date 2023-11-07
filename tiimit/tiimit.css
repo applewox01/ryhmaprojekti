@@ -1,7 +1,8 @@
 
-
-#page{
+*{
     box-sizing: border-box;
+}
+#page{
     border: 2px solid black;
     margin-top: 4%;
     margin-left: 1%;
@@ -53,7 +54,6 @@
     text-align: center;
     line-height: 50px;
     font-size: 20px;
-    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 445px){
@@ -68,6 +68,14 @@
 }
 #info{
     width: 100%;
+    margin-left: 0px;
+}
+#ovtop{
+    text-align: center;
+}
+#tiimival{
+    margin-left: 0px;
 }
 }
+
    
