@@ -1,1 +1,1 @@
-andrei, niko j., fuseini
+Andrei, Niko J., Fuseini
