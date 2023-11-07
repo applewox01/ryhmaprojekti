@@ -102,68 +102,262 @@ function näytä_raportit(){
 }
 
 
-
 document.getElementById("hae").addEventListener("click", näytä_raportit)
 
 
-
-
-
-
-/*
-
-
-function piirra() {
-
-    konteksti.clearRect(0, 0, canvas.width, canvas.height);
-    konteksti.save();
-    konteksti.strokeRect(140,10, 50, 100)
-    konteksti.fillStyle = "#6E2C00";
-
-    if (laskuri1 <= prosentia){
-        laskuri1 += 1
-
-    }
-    konteksti.fillRect(140, 10+100-laskuri1, 50, laskuri1)
-
-    konteksti.strokeRect(240,10, 50, 100)
-    konteksti.fillStyle = "red";
-    if (laskuri2 <= prosentib){
-        laskuri2 += 1
-    }
-    konteksti.fillRect(240, 10+100-laskuri2, 50, laskuri2)
-
-    konteksti.strokeRect(340,10, 50, 100)
-    konteksti.fillStyle = "blue";
-    if (laskuri3 <= prosentic){
-        laskuri3 += 1
-    }
-    konteksti.fillRect(340, 10+100-laskuri3, 50, laskuri3)
-
-    konteksti.restore();
-}
-
-
-document.getElementById("hae").addEventListener("click", function(p){
-    p.preventDefault()
-    document.getElementById("varastusalusta").style.display="inline-block"
-    let ding = document.getElementById("kakkaaudio")
-    ding.play();
-    prosentia = parseInt(document.getElementById("nimi1").value)
-    prosentib = parseInt(document.getElementById("nimi2").value)
-    prosentic = parseInt(document.getElementById("nimi3").value)
-
-    laskuri1 = 0
-    laskuri2 = 0
-    laskuri3 = 0
-
-    
-    setInterval(piirra, 100);
-})
-*/
 document.getElementById("sisa").addEventListener("mouseenter", function() {
     document.getElementById("sisa").innerHTML = "666 casino on Tosi hyvä paikka";
 })
 document.getElementById("sisa").addEventListener("mouseleave", function() {
     document.getElementById("sisa").innerHTML = "Työaikaseuranta";
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin    //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin    //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+	    //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin    //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin    //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
+        //responsivinen kakka on laitetu persesen takaisin
+    //responsivinen kakka on laitetu persesen takaisin
